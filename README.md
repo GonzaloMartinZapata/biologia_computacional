@@ -105,3 +105,8 @@ Para este cálculo se uso la variable t de student ya que el n era 28 (el total 
 -La desviación típica del promedio de smORFS conservados por genoma es: 11.516493807996843 <br>
 -La varianza del promedio de smORFs conservados por genoma es: 132.62962962962962 <br>
 -Intervalo de confianza al 95.0% para smORFs conservados: (184.0343698897014, 192.9656301102986) <br>
+
+## 4) Test de Hipótesis
+
+Se propuso estudiar como están anotadas estos SEPs. Para esto se realizó un gráfico de tipo torta mostrando los distintos productos codificados por estos genes.
+
