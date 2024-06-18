@@ -75,4 +75,16 @@ La varianza es 92.45963030120825
 
 ## 2) Asimetría y curtosis
 
+Se calcularon también el coeficiente de asimetria de Fisher y el coeficiente de curtosis.
 
+ coeficiente de asimetría:
+  ```python
+skewness = df["len"].skew(axis=0, skipna=True, numeric_only=False)
+ ```
+El valor obtenido fue de -0.9114654884958558. Al ser neagtivo se puede decir que la distribución de tamaños de smORFs en S.meliloti tiene una asimetría negativa (hacia la izquierda)
+
+coeficiente de curtosis:
+  ```python
+kurtosis = df["len"].kurt(axis=0, skipna=True, numeric_only=False)
+ ```
+En este caso el resultado fue 1.0995996120417915 lo que indica una distribución leptocúrtica. Esto indica una mayor concentración de valores cerca de la media.
