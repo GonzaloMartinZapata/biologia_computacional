@@ -9,18 +9,28 @@ Aunque los avances recientes en los métodos de aprendizaje automático han logr
 
 Diseño y metodología del experimento
 
-Para poder estudiar los smORFs de S.meliloti, se diseño un pipeline para descargar todos los genomas que se encuentren completos para esta bacteria en la base de datos RefSeq. Una vez descargados estos genomas, se creó un script de Python para poder extraer información de todas las secuencias codificantes que codifican para péptidos de 70 aminoácidos de largo o menos. Con esta información se creó un archivo csv que contiene para cada smORF presente el genoma correspondiente, el locus tag, la secuencia del péptido codificado, la longitud de esa secuencia, el producto anotado para ese péptido y la función en caso de estar disponible. Además, se agrego a la tabla, utilizando un script distinto, los resultados de 3 programas distintos que se usaron para poder estudiar la conservación de estos genes a lo largo de los distintos genomas. Una vez agregados estos valores, el mismo script agrega una nueva columna con un resultado "consenso" a partir de los 3 programas. 
+Para poder estudiar los smORFs de S.meliloti, se diseño un pipeline para descargar todos los genomas que se encuentren completos para esta bacteria en la base de datos RefSeq. Una vez descargados estos genomas, se creó un script de Python para poder extraer información de todas las secuencias codificantes de 70 residuos de largo o menos. Con esta información se creó un archivo csv que contiene para cada smORF presente el genoma correspondiente, el locus tag, la secuencia del péptido codificado, la longitud de esa secuencia, el producto anotado para ese péptido y la función en caso de estar disponible. Además, se agrego a la tabla los resultados de 3 programas distintos que se usaron para poder estudiar la conservación de estos genes a lo largo de los distintos genomas. Una vez agregados estos valores, se agregó una nueva columna con un resultado "consenso" a partir de los 3 programas. 
 
 Con la tabla obtenida, se propone estudiar el tamaño promedio de estos genes, la información anotada y el grado de conservación de cada gen.
 
 1) Descripción y Análisis de los datos
 
-Se estudió el tamaño de los péptidos codificados para cada smORF. Al estar analizando el tamaño del péptido codificado, esta variable solo puede tomar números enteros entre 0 y 70 por lo que se trata de una variable discreta. La forma elegida para representar el tamaño de estos péptidos fue a través de un histograma. 
+Se estudió el tamaño de los péptidos codificados para cada smORF. Esta variable solo puede tomar números enteros entre 0 y 70 por lo que se trata de una variable discreta. La forma elegida para representar el tamaño de estos péptidos fue a través de un histograma. 
 
 ![image](https://github.com/GonzaloMartinZapata/biologia_computacional/assets/173167223/af0bf620-901b-4681-8ea2-e5ef1df764e2)
 
 En este gráfico se puede ver que la mayoría de los smORFs codifican para péptidos con secuencias más largas que 40 péptidos y que al considerar tamaños más grandes, mas genes son encontrados. De la misma forma, se puede decir que son muy pocos los genes que codifican péptidos de menos de 40 aminoácidos. No queda claro si esto se debe a que estos genes son poco frecuentes o a que los métodos de detección y anotación actuales no son capaces de reconocer estas pequeñas secuencias.
 
 También, se propuso estudiar la distribución de estos genes por genoma. Para ello, se realizó un gráfico de tipo boxplot.
+
+![image](https://github.com/GonzaloMartinZapata/biologia_computacional/assets/173167223/1d6c4511-785e-413a-ab9d-1ac10bae3047)
+
+De este gráfico se observa una correlación con el anterior, al considerar tamaños más grandes, más smORFs son encontrados por genoma. A la vez, se puede decir que existe una varaicón en la cantidad de estos genes por genoma como se puede ver por el tamaño de las cajas.
+
+El siguiente paso fue calcular los parámetros de centralización y dispersión para esta variable. Entre los parametros de centralización se calculo: la media, la mediana y la moda. Los parametros de dispersión calculados fueron: el rango, el recorrido intercuartílico, la desviación típica y la varianza.
+
+
+
+
 
 
