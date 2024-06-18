@@ -17,3 +17,5 @@ Con la tabla obtenida, se propone estudiar el tamaño promedio de estos genes, l
 
 Se estudió el tamaño de los péptidos codificados para cada smORF. Al estar analizando el tamaño del péptido codificado, esta variable solo puede tomar números enteros entre 0 y 70 por lo que se trata de una variable discreta. La forma elegida para representar el tamaño de estos péptidos fue a través de un histograma. 
 
+![image](https://github.com/GonzaloMartinZapata/biologia_computacional/assets/173167223/af0bf620-901b-4681-8ea2-e5ef1df764e2)
+
