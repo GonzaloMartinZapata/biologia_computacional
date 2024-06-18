@@ -19,3 +19,8 @@ Se estudió el tamaño de los péptidos codificados para cada smORF. Al estar an
 
 ![image](https://github.com/GonzaloMartinZapata/biologia_computacional/assets/173167223/af0bf620-901b-4681-8ea2-e5ef1df764e2)
 
+En este gráfico se puede ver que la mayoría de los smORFs codifican para péptidos con secuencias más largas que 40 péptidos y que al considerar tamaños más grandes, mas genes son encontrados. De la misma forma, se puede decir que son muy pocos los genes que codifican péptidos de menos de 40 aminoácidos. No queda claro si esto se debe a que estos genes son poco frecuentes o a que los métodos de detección y anotación actuales no son capaces de reconocer estas pequeñas secuencias.
+
+También, se propuso estudiar la distribución de estos genes por genoma. Para ello, se realizó un gráfico de tipo boxplot.
+
+
