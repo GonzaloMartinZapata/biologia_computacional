@@ -134,3 +134,7 @@ Por otro lado, se realizó un test de ANOVA para comparar si existen diferencias
 Valor F: 22.6498951969155 <br>
 Valor p: 1.2290935614758286e-22 <br>
 Hay diferencias significativas entre al menos dos grupos <br>
+
+Para representar estos resultados de forma más clara, se realizó un nuevo boxplot con estos resultados:
+
+
