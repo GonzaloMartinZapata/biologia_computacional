@@ -110,3 +110,27 @@ Para este cálculo se uso la variable t de student ya que el n era 28 (el total 
 
 Se propuso estudiar como están anotadas estos SEPs. Para esto se realizó un gráfico de tipo torta mostrando los distintos productos codificados por estos genes.
 
+![image](https://github.com/GonzaloMartinZapata/biologia_computacional/assets/173167223/25e0f2c6-0df1-4448-b126-307f986b07a0)
+
+Se puede observar que aproximadamente dos tercios de estos péptidos están anotados como proteínas hipotéticas, lo que significa que no existe validación experimental que compruebe que estas proteínas se expresan. Entre aquellos SEPs que si cuentan con una anotación se encuentra una gran variedad de dominios y familias distintas que muestran los diversos roles que pueden llevar acabo estas pequeñas proteínas.
+
+Se propuso a continuación plantear un test de hipótesis para comprobar si existe una diferencia en la anotación de estas proteínas dada por el tamaño. Las técnicas de laboratorio usadas generalmente tienden a no ser específicas para proteínas tan chicas, esto sumado a la falta de caracterización que dificulta las estimaciones por métodos bioinformáticos, nos lleva a plantear si esta dificultad se hace más notoria con péptidos más cortos. Para este análisis se plantearon las siguientes hipótesis:
+
+H0: No hay diferencia en las proporciones de "proteínas hipotéticas" entre los péptidos pequeños (longitud menor o igual a la mediana) y los péptidos grandes (longitud mayor a la mediana).
+
+H1: Hay una diferencia en las proporciones de "proteínas hipotéticas" entre los péptidos pequeños y los péptidos grandes.
+
+Se usó en este caso la prueba de chi cuadrado. Los resultados obtenidos fueron: 
+
+Proporción de 'proteínas hipotéticas' en péptidos más pequeños que la mediana: 0.7482551143200963 <br>
+Proporción de 'proteínas hipotéticas' en péptidos más grandes que la mediana: 0.5722135007849294 <br>
+Valor p de la prueba de chi-cuadrado: 6.474964936751062e-62 <br>
+Hay una diferencia significativa en las proporciones de 'proteínas hipotéticas' entre péptidos pequeños y grandes. <br>
+
+Lo que confirma que para péptidos más pequeños la falta de información y caracterización es mayor.
+
+Por otro lado, se realizó un test de ANOVA para comparar si existen diferencias significativas en los tamaños de los SEPs teniendo en cuenta su grado de conservación. En este caso, los resultados fueron:
+
+Valor F: 22.6498951969155 <br>
+Valor p: 1.2290935614758286e-22 <br>
+Hay diferencias significativas entre al menos dos grupos <br>
