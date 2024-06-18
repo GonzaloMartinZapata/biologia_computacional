@@ -30,6 +30,7 @@ De este gráfico se observa una correlación con el anterior, al considerar tama
 El siguiente paso fue calcular los parámetros de centralización y dispersión para esta variable. Entre los parametros de centralización se calculo: la media, la mediana y la moda. Los parametros de dispersión calculados fueron: el rango, el recorrido intercuartílico, la desviación típica y la varianza.
 
 ```python
+#   MEDIDAS DE CENTRALIZACION
 media = df["len"].mean(axis=0, skipna=True, numeric_only=False)
 
 print ("La media es " + str (media))
@@ -41,6 +42,35 @@ print ("La mediana es " + str (mediana))
 moda = stats.mode(df["len"], nan_policy='omit')
 print (f"la moda es: {moda}")
 
+k= 0.5
+percentil_k = df["len"].quantile(q=k)
+print("El percentil " + str(k*100) + " es " + str(percentil_k))
+
+#   MEDIDAS DE DISPERSION
+
+rango = df["len"].max()-df["len"].min()
+RI = df["len"].quantile(0.75)-df["len"].quantile(0.25)
+
+print ("El rango es " + str (rango))
+print ("El recorrido intercuartílico es " + str (RI))
+
+desviacion_tipica = df["len"].std(axis=None, skipna=True, ddof=1, numeric_only=False)
+varianza = df["len"].var(axis=None, skipna=True, ddof=1, numeric_only=False)
+
+print ("La desviación típica es " + str (desviacion_tipica))
+print ("La varianza es " + str (varianza))
+
+
+Los resultados obtenidos fueron:
+
+La media es 57.44264761188417
+La mediana es 59.0
+la moda es: ModeResult(mode=70, count=495)
+El percentil 50.0 es 59.0
+El rango es 56
+El recorrido intercuartílico es 15.0
+La desviación típica es 9.615593081095323
+La varianza es 92.45963030120825
 
 
 
