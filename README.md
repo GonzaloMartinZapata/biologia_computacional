@@ -59,7 +59,6 @@ varianza = df["len"].var(axis=None, skipna=True, ddof=1, numeric_only=False)
 
 print ("La desviación típica es " + str (desviacion_tipica))
 print ("La varianza es " + str (varianza))
-   ```
 
 Los resultados obtenidos fueron:
 
@@ -72,7 +71,7 @@ El recorrido intercuartílico es 15.0
 La desviación típica es 9.615593081095323
 La varianza es 92.45963030120825
 
-
+   ```
 
 
 
