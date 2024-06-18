@@ -137,4 +137,5 @@ Hay diferencias significativas entre al menos dos grupos <br>
 
 Para representar estos resultados de forma más clara, se realizó un nuevo boxplot con estos resultados:
 
+![image](https://github.com/GonzaloMartinZapata/biologia_computacional/assets/173167223/791881cf-02c2-404e-a936-6cdd9c6d627b)
 
