@@ -1,5 +1,5 @@
 # Trabajo final de la materia Biología Computacional
-Estudiantes: Zapata Gonzalo
+Estudiantes: Cecilia Rodriguez y Zapata Gonzalo
 
 ## Marco Teórico
 
@@ -118,7 +118,7 @@ Se propuso estudiar como están anotadas estos SEPs. Para esto se realizó un gr
 
 Se puede observar que aproximadamente dos tercios de estos péptidos están anotados como proteínas hipotéticas, lo que significa que no existe validación experimental que compruebe que estas proteínas se expresan. Entre aquellos SEPs que si cuentan con una anotación se encuentra una gran variedad de dominios y familias distintas que muestran los diversos roles que pueden llevar acabo estas pequeñas proteínas.
 
-Se propuso a continuación plantear un test de hipótesis para comprobar si existe una diferencia en la anotación de estas proteínas dada por el tamaño. Las técnicas de laboratorio usadas generalmente tienden a no ser específicas para proteínas tan chicas, esto sumado a la falta de caracterización que dificulta las estimaciones por métodos bioinformáticos, nos lleva a plantear si esta dificultad se hace más notoria con péptidos más cortos. Para este análisis se plantearon las siguientes hipótesis:
+A continuación se planteao un test de hipótesis para comprobar si existe una diferencia en la anotación de estas proteínas dada por el tamaño. Las técnicas de laboratorio usadas generalmente tienden a no ser específicas para proteínas tan chicas, esto sumado a la falta de caracterización que dificulta las estimaciones por métodos bioinformáticos, nos llevó a plantear si esta dificultad se hace más notoria con péptidos más cortos. Para este análisis se plantearon las siguientes hipótesis:
 
 H0: No hay diferencia en las proporciones de "proteínas hipotéticas" entre los péptidos pequeños (longitud menor o igual a la mediana) y los péptidos grandes (longitud mayor a la mediana).
 
