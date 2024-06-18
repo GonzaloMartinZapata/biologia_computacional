@@ -27,6 +27,10 @@ También, se propuso estudiar la distribución de estos genes por genoma. Para e
 
 De este gráfico se observa una correlación con el anterior, al considerar tamaños más grandes, más smORFs son encontrados por genoma. A la vez, se puede decir que existe una varaicón en la cantidad de estos genes por genoma como se puede ver por el tamaño de las cajas.
 
+Por último, se graficó la distribución del grado de conservación de estos genes en un gráfico de tipo torta, teniendo en cuenta los valores de la columna consenso.
+
+![image](https://github.com/GonzaloMartinZapata/biologia_computacional/assets/173167223/6f02c527-4632-4a08-9128-89f0aa49df2a)
+
 El siguiente paso fue calcular los parámetros de centralización y dispersión para esta variable. Entre los parametros de centralización se calculo: la media, la mediana, la moda y el percentil 50. Los parametros de dispersión calculados fueron: el rango, el recorrido intercuartílico, la desviación típica y la varianza.
 
 ```python
