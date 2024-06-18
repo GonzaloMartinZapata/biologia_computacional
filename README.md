@@ -88,3 +88,9 @@ coeficiente de curtosis:
 kurtosis = df["len"].kurt(axis=0, skipna=True, numeric_only=False)
  ```
 En este caso el resultado fue 1.0995996120417915 lo que indica una distribución leptocúrtica. Esto indica una mayor concentración de valores cerca de la media.
+
+## 3) Intervalos de confianza
+
+Se determinaron los intervalos de confianza para el promedio de smORFs presentes por genoma en total y también para aquellos que puedan ser considerados como "probablemente conservados". Se consideran probablemente conservados a aquellos que fueron clasificados en las categorías "conserved", "Core" y "soft core" en la columna de resultados. Estos genes estarían presentes en el 100% de los genomas estudiados, entre 99 y 95% o entre 50 y 95% respectivamente.
+
+De esta forma, se determinó que, por genoma de 
