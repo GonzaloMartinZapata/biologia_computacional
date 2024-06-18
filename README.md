@@ -59,7 +59,7 @@ varianza = df["len"].var(axis=None, skipna=True, ddof=1, numeric_only=False)
 
 print ("La desviación típica es " + str (desviacion_tipica))
 print ("La varianza es " + str (varianza))
-
+   ```
 
 Los resultados obtenidos fueron:
 
