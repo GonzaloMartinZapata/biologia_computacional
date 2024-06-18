@@ -95,13 +95,13 @@ Se determinaron los intervalos de confianza para el promedio de smORFs presentes
 
 Para este cálculo se uso la variable t de student ya que el n era 28 (el total de genomas estudiados). El nivel de confianza utilizado fue 0.95 y los grados de libertad fueron 27 (n-1). Los resultados obtenidos fueron:
 
--La media del promedio de smORFS por genoma es: 284.89285714285717 
--La mediana del promedio de smORFs por genoma es: 277.0
--La desviación típica del promedio de smORFS por genoma es: 32.80169291669346
--La varianza del promedio de smORFs por genoma es: 1075.9510582010582
--Intervalo de confianza al 95.0%: (272.173688444495, 297.61202584121935)
--La media de smORFs conservados por genoma es: 188.5
--La mediana del promedio de smORFs conservados por genoma es: 192.0
--La desviación típica del promedio de smORFS conservados por genoma es: 11.516493807996843
--La varianza del promedio de smORFs conservados por genoma es: 132.62962962962962
--Intervalo de confianza al 95.0% para smORFs conservados: (184.0343698897014, 192.9656301102986)
+-La media del promedio de smORFS por genoma es: 284.89285714285717 <br>
+-La mediana del promedio de smORFs por genoma es: 277.0 <br>
+-La desviación típica del promedio de smORFS por genoma es: 32.80169291669346 <br>
+-La varianza del promedio de smORFs por genoma es: 1075.9510582010582 <br>
+-Intervalo de confianza al 95.0%: (272.173688444495, 297.61202584121935) <br>
+-La media de smORFs conservados por genoma es: 188.5 <br>
+-La mediana del promedio de smORFs conservados por genoma es: 192.0 <br>
+-La desviación típica del promedio de smORFS conservados por genoma es: 11.516493807996843 <br>
+-La varianza del promedio de smORFs conservados por genoma es: 132.62962962962962 <br>
+-Intervalo de confianza al 95.0% para smORFs conservados: (184.0343698897014, 192.9656301102986) <br>
