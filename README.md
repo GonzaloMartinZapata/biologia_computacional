@@ -95,7 +95,7 @@ Se determinaron los intervalos de confianza para el promedio de smORFs presentes
 
 Para este cálculo se uso la variable t de student ya que el n era 28 (el total de genomas estudiados). El nivel de confianza utilizado fue 0.95 y los grados de libertad fueron 27 (n-1). Los resultados obtenidos fueron:
 
-La media del promedio de smORFS por genoma es: 284.89285714285717
+La media del promedio de smORFS por genoma es: 284.89285714285717 
 La mediana del promedio de smORFs por genoma es: 277.0
 La desviación típica del promedio de smORFS por genoma es: 32.80169291669346
 La varianza del promedio de smORFs por genoma es: 1075.9510582010582
