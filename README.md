@@ -91,7 +91,7 @@ En este caso el resultado fue 1.0995996120417915 lo que indica una distribución
 
 ## 3) Intervalos de confianza
 
-Se determinaron los intervalos de confianza para el promedio de smORFs presentes por genoma en total y también para aquellos que puedan ser considerados como "probablemente conservados". Se consideran probablemente conservados a aquellos que fueron clasificados en las categorías "conserved", "Core" y "soft core" en la columna de resultados. Estos genes estarían presentes en el 100% de los genomas estudiados, entre 99 y 95% o entre 50 y 95% respectivamente.
+Se determinaron los intervalos de confianza para el promedio de smORFs presentes por genoma en total y también para aquellos que puedan ser considerados como "probablemente conservados". Se consideran probablemente conservados a aquellos que fueron clasificados en las categorías "conserved", "core" y "soft core" en la columna de resultados. Estos genes estarían presentes en el 100% de los genomas estudiados, entre 99 y 95% o entre 50 y 95% respectivamente.
 
 Para este cálculo se uso la variable t de student ya que el n era 28 (el total de genomas estudiados). El nivel de confianza utilizado fue 0.95 y los grados de libertad fueron 27 (n-1). Los resultados obtenidos fueron:
 
