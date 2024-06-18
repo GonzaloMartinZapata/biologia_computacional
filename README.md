@@ -29,6 +29,18 @@ De este gráfico se observa una correlación con el anterior, al considerar tama
 
 El siguiente paso fue calcular los parámetros de centralización y dispersión para esta variable. Entre los parametros de centralización se calculo: la media, la mediana y la moda. Los parametros de dispersión calculados fueron: el rango, el recorrido intercuartílico, la desviación típica y la varianza.
 
+```python
+media = df["len"].mean(axis=0, skipna=True, numeric_only=False)
+
+print ("La media es " + str (media))
+
+mediana = df["len"].median(axis=0, skipna=True, numeric_only=False)
+
+print ("La mediana es " + str (mediana))
+
+moda = stats.mode(df["len"], nan_policy='omit')
+print (f"la moda es: {moda}")
+
 
 
 
